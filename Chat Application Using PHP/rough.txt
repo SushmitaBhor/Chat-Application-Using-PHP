@@ -1,0 +1,15 @@
+//<div align="center">
+ //<a href="uploaddoc.php">Upload file</a>
+      //</div><br><br>
+//<div align="center">
+ //<a href="indexback.php">Download file</a>
+  //    </div>
+ <div class="file_upload">
+    <form id="uploadfile" method="post" action="uploaddoc.php">
+     <label for="uploadFile"><img src="upload.pdf" /></label>
+     <input type="file" name="uploadFile" id="uploadFile" accept=".pdf, .doc, .txt" />
+    </form>
+   </div>
+  </div>
+ </div>
+ <div class="form-group" align="right">
